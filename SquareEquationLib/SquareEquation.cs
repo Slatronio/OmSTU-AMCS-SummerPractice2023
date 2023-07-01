@@ -20,7 +20,7 @@ public class SquareEquation
             throw new System.ArgumentException();
         }
 
-        double D = ((b*b) - (4*a*c));
+        double D = Math.Pow(b, 2) - (4*a*c);
         if (-eps < D && D < eps)
         {
             answ = new double[1];
@@ -31,6 +31,7 @@ public class SquareEquation
             answ = new double[2];
             answ[0] = -(b + Math.Sign(b) * Math.Sqrt(D)) / 2;
             answ[1] = c / answ[0];
+            answ[0] = answ[0] / a;
         }
         return answ;
     }
