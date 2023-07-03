@@ -11,15 +11,13 @@ public class ServiceLocatorTest
     }
 
     [Fact]
-<<<<<<< HEAD
     public void Service2Test()
     {
         var expected = "У рояля";
         var actual = SalonLib.ServiceLocator.GetService("Петь романсы");
         Assert.Equal(expected, actual);
     }
-}
-=======
+
     public void Service3Test()
     {
         var expected = "В кабинете";
@@ -27,4 +25,3 @@ public class ServiceLocatorTest
         Assert.Equal(expected, actual);
     }
 }
->>>>>>> fa9148d (Добавлен тест для сервиса 3)
