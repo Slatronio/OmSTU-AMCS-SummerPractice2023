@@ -25,3 +25,4 @@ jobs:
       - name: Test
         run: cd spacebattletests && dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
         
+        
