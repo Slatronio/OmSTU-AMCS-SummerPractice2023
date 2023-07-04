@@ -29,4 +29,4 @@ jobs:
         run: cd XUnit.Coverlet.Collector && dotnet test --collect:"XPlat Code Coverage"
       
       - name: Coverage
-        run: cd XUnit.Coverlet.MSBuild && dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+        run: cd XUnit.Coverlet.Collector && dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
