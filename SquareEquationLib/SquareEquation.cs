@@ -32,6 +32,11 @@ public class SquareEquation
             answ[0] = -(b + Math.Sign(b) * Math.Sqrt(D)) / 2;
             answ[1] = c / answ[0];
             answ[0] = answ[0] / a;
+            if (-eps < b && b < eps)
+            {
+                answ[0] = Math.Sqrt(-c/a);
+                answ[1] = -answ[0];
+            }
         }
         return answ;
     }
