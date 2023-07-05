@@ -2,7 +2,7 @@ name: spacebattle
 
 on:
   push:
-    branches: ["spacebattle7"]
+    branches: ["spacebattle8"]
 
 jobs:
   build:
@@ -25,4 +25,3 @@ jobs:
       - name: Test
         run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
 
-        
