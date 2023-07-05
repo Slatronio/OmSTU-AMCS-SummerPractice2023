@@ -1,0 +1,57 @@
+{
+  "spacebattle.dll": {
+    "/home/ubuntu/OmSTU-AMCS-SummerPractice2023/spacebattle/Program.cs": {
+      "spacebattle.Move": {
+        "System.Double[] spacebattle.Move::ConstantMotion(System.Double,System.Double,System.Double,System.Double,System.Double)": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 2,
+            "11": 2,
+            "14": 2,
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 9,
+              "Offset": 19,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 9,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 9,
+              "Offset": 38,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}
